@@ -1,0 +1,113 @@
+     body {
+            margin: 0px;
+            padding: 0px;
+            background-color: black;
+            color: white;
+            font-family: monospace;
+            display: flex;
+        }
+
+        .container {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .app {
+            text-align: center;
+            border: 2px solid salmon;
+            min-width: 500px;
+            border-radius: 10px;
+            padding: 30px;
+        }
+
+        .db-output {
+            text-align: center;
+        }
+
+        h1 {
+            width: 100%;
+            background-color: white;
+            color: black;
+            text-transform: uppercase;
+            border-radius: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        h1::before {
+            content: "🚀 ";
+        }
+
+        h1::after {
+            content: " 🚀";
+        }
+
+        legend {
+            text-align: left;
+        }
+
+        fieldset {
+            text-align: left;
+            padding: 20px;
+            padding-left: 30px;
+        }
+
+        label {
+            display: block;
+            float: left;
+            width: 150px;
+        }
+
+        label::before {
+            content: "🏷️";
+        }
+
+        button[type='submit'] {
+            background-color: skyblue;
+            color: black;
+            text-transform: uppercase;
+            border-radius: 5px;
+            padding: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            color: white;
+            background-color: rgba(255, 255, 255, 0.189);
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            color: black;
+        }
+
+        .btn {
+            padding: 5px 10px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .btn-edit {
+            background-color: #4CAF50;
+            /* Green */
+        }
+
+        .btn-delete {
+            background-color: #f44336;
+            /* Red */
+        }

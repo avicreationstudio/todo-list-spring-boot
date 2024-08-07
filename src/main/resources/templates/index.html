@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link th:href="@{/styles/style.css}" rel="stylesheet" />
+</head>
+
+<body>
+<div class="container">
+    <div class="app">
+        <h1 th:text="${title}"></h1>
+        <form action="/view/todolist/addItem" method="post">
+            <fieldset>
+                <legend th:text="${input}"></legend>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+                <br/>
+                <label for="category">Category</label>
+                <input type="text" name="category" id="category" required>
+                <br/>
+                <label for="note">Note</label>
+                <input type="text" name="note" id="note" required>
+                <br/>
+                <br/>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+        </form>
+    </div>
+    <div class="db-output">
+        <br/>
+        <hr/>
+        <h2>THE LIST OF ITEMS FROM DATABASE</h2>
+        <hr/>
+        <br/>
+        <div class="table-section">
+            <table>
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Category</th>
+                    <th>Note</th>
+                    <th>Delete</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="item : ${items}">
+                    <td th:text="${item.id}"></td>
+                    <td th:text="${item.name}"></td>
+                    <td th:text="${item.category}"></td>
+                    <td th:text="${item.note}"></td>
+                    <td>
+                        <button class="btn btn-delete"  th:onclick="|deleteItem('${item.id}')|">Delete</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script th:src="@{/js/script.js}"></script>
+</body>
+
+</html>
