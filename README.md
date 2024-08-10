@@ -164,5 +164,20 @@ In the context of Node.js, "packages" and "modules" refer to different aspects o
   - But now JSON is the most popular format being used in Web Services.
 
 
+## PLacement tips
+
+![image](https://github.com/user-attachments/assets/d0d47705-90c2-4a02-8777-d55a80ff81a5)
+
+![image](https://github.com/user-attachments/assets/bdf40a34-919c-4d9b-9c49-d7829fdbd1a2)
+
+## other references
+
+![image](https://github.com/user-attachments/assets/17a8133e-0f61-4856-8866-65d590ea592e)
+
+## FRONT END && BACK END 
+
+![image](https://github.com/user-attachments/assets/ff23e34c-f4f4-4d6c-944d-d54896e8a9c8)
+
+![image](https://github.com/user-attachments/assets/0808265f-0a15-4773-8724-792c15871b64)
 
 
