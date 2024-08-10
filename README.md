@@ -145,3 +145,15 @@ In the context of Node.js, "packages" and "modules" refer to different aspects o
 ![image](https://github.com/user-attachments/assets/0808265f-0a15-4773-8724-792c15871b64)
 
 
+# STEPS TO DO THE PROJECT
+
+1. downloaded this github project.
+2. Extract the downloaded file.
+3. Open your extracted project in intellIj.
+4. Wait for few minutes. So that neccessary things get downloaded.
+5. If something is not downloaded properly. then follow below steps
+     1. `right-click` on pom.xml `maven > reload project`
+6. open your main application java file.
+     - `src > main > java > com.example.todo > TodoApplication.java `
+     - `Right-click` on `TodoApplication.java` file. Then you have to select `Run - 'TodoApplication.main()'`
+       
