@@ -8,9 +8,9 @@ MVC - Model View controller architecture
 
 ## Things we used
 
-Model      - refers to Database ( MySQL )
-View       - template engine ( Themeleaf )
-Controller - RESTAPI controller
+        Model      - refers to Database ( MySQL )
+        View       - template engine ( Themeleaf )
+        Controller - RESTAPI controller
 
 
 # intro
