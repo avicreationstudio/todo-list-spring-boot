@@ -137,10 +137,7 @@ In the context of Node.js, "packages" and "modules" refer to different aspects o
 
 ![image](https://github.com/user-attachments/assets/bdf40a34-919c-4d9b-9c49-d7829fdbd1a2)
 
-## other references
-
-![image](https://github.com/user-attachments/assets/17a8133e-0f61-4856-8866-65d590ea592e)
-
+## other reference
 ## FRONT END && BACK END 
 
 ![image](https://github.com/user-attachments/assets/ff23e34c-f4f4-4d6c-944d-d54896e8a9c8)
