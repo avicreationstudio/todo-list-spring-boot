@@ -145,7 +145,7 @@ In the context of Node.js, "packages" and "modules" refer to different aspects o
 ![image](https://github.com/user-attachments/assets/0808265f-0a15-4773-8724-792c15871b64)
 
 
-# STEPS TO DO THE PROJECT
+## STEPS TO DO THE PROJECT
 
 1. downloaded this github project.
 2. Extract the downloaded file.
@@ -156,4 +156,14 @@ In the context of Node.js, "packages" and "modules" refer to different aspects o
 6. open your main application java file.
      - `src > main > java > com.example.todo > TodoApplication.java `
      - `Right-click` on `TodoApplication.java` file. Then you have to select `Run - 'TodoApplication.main()'`
-       
+   
+### Steps to create a table
+
+1. Create a package(`Entity`) inside `com.example.todo`
+2. Create a java `class` file, inside `Entity` |  file :`Customer`
+
+
+## run you application.
+
+1. before running your application.
+2. make sure you updated your `application.properties`
