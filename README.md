@@ -15,7 +15,7 @@ MVC - Model View controller architecture
 
 # intro
 
-- why express
+- why spring boot ?
 - postman ?
 - ACCOUNT CREATION:
   - <https://web.postman.co/>
